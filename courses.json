@@ -1,0 +1,250 @@
+{
+  "courses": [
+    {
+      "title": "Blockchain Fundamentals",
+      "id": "1",
+      "course_duration": "6 weeks",
+      "course_startDate": "2025-03-10",
+      "course_price": "$299",
+      "course_description": "This course provides an in-depth introduction to blockchain technology, covering its core concepts, decentralized applications, and the future of digital assets. Students will learn how blockchain works, its security mechanisms, and its impact on industries such as finance and supply chain management.",
+      "isClassroom_orDemand": "On Demand",
+      "vote_average": 4.7,
+      "imageUrl": "image1.jpg",
+      "instructor": "Mucheal Google"
+    },
+    {
+      "title": "Python Programming",
+      "id": "2",
+      "course_duration": "8 weeks",
+      "course_startDate": "2025-02-15",
+      "course_price": "$350",
+      "course_description": "A beginner-friendly course that covers Python basics, including syntax, loops, functions, and data structures. Students will also explore automation, web scraping, and how to build small projects using Python libraries.",
+      "isClassroom_orDemand": "Classroom",
+      "vote_average": 4.8,
+      "imageUrl": "image2.jpg",
+      "instructor": "James Gun"
+    },
+    {
+      "title": "Digital Marketing",
+      "id": "3",
+      "course_duration": "5 weeks",
+      "course_dtartDate": "2025-04-05",
+      "course_price": "$199",
+      "course_description": "This course explores modern digital marketing techniques, including search engine optimization (SEO), social media marketing, email campaigns, and paid advertising. By the end, students will be able to develop and execute effective digital marketing strategies.",
+      "isClassroom_orDemand": "On Demand",
+      "vote_average": 4.6,
+      "imageUrl": "image3.jpg",
+      "instructor": "Cindy Men"
+    },
+    {
+      "title": "Cybersecurity",
+      "id": "4",
+      "course_duration": "10 weeks",
+      "course_startDate": "2025-03-20",
+      "course_price": "$450",
+      "course_description": "An essential course on cybersecurity principles, covering network security, threat detection, penetration testing, and best practices for protecting digital assets against cyber threats and hacking attempts.",
+      "isClassroom_orDemand": "Classroom",
+      "vote_average": 4.9,
+      "imageUrl": "image4.jpg",
+      "instructor": "Cynthia Chan"
+    },
+    {
+      "title": "Data Science",
+      "id": "5",
+      "course_duration": "7 weeks",
+      "course_startDate": "2025-03-01",
+      "course_price": "$399",
+      "course_description": "A comprehensive course on data science using R programming. Students will learn data visualization, statistical analysis, predictive modeling, and how to work with real-world datasets to derive meaningful insights.",
+      "isClassroom_orDemand": "On Demand",
+      "vote_average": 4.7,
+      "imageUrl": "img5.jpg",
+      "instructor": "John Doe"
+    },
+    {
+      "title": "Cloud Computing",
+      "id": "6",
+      "course_duration": "6 weeks",
+      "course_startDate": "2025-04-10",
+      "course_price": "$299",
+      "course_description": "An introduction to cloud computing concepts, including cloud architecture, deployment models, virtualization, and popular cloud platforms like AWS, Azure, and Google Cloud.",
+      "isClassroom_orDemand": "Classroom",
+      "vote_average": 4.5,
+      "imageUrl": "img6.jpg",
+      "instructor": "Best George"
+    },
+    {
+      "title": "Web Development",
+      "id": "7",
+      "course_duration": "12 weeks",
+      "course_startDate": "2025-02-25",
+      "course_price": "$599",
+      "course_description": "A hands-on course covering both front-end and back-end development. Students will build responsive web applications using HTML, CSS, JavaScript, React, Node.js, and databases such as MongoDB and PostgreSQL.",
+      "isClassroom_orDemand": "On Demand",
+      "vote_average": 4.8,
+      "imageUrl": "img7.jpg",
+      "instructor": "Candy Cane"
+    },
+    {
+      "title": "UX/UI Design",
+      "id": "8",
+      "course_duration": "9 weeks",
+      "course_startDate": "2025-03-18",
+      "course_price": "$499",
+      "course_description": "Learn financial modeling techniques and how to analyze business performance through data-driven insights. This course covers forecasting methods, risk assessment, and investment decision-making.",
+      "isClassroom_orDemand": "Classroom",
+      "vote_average": 4.7,
+      "imageUrl": "img8.jpg",
+      "instructor": "Mucheal Google"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "id": "9",
+      "course_duration": "8 weeks",
+      "course_startDate": "2025-04-01",
+      "course_price": "$399",
+      "course_description": "An introductory course on AI concepts, including machine learning, neural networks, and natural language processing. Students will explore real-world applications and build AI models using Python frameworks.",
+      "isClassroom_orDemand": "On Demand",
+      "vote_average": 4.8,
+      "imageUrl": "img9.jpg",
+      "instructor": "Jerry John"
+    },
+    {
+      "title": "Financial Analysis",
+      "id": "10",
+      "course_duration": "6 weeks",
+      "course_startDate": "2025-03-12",
+      "course_price": "$349",
+      "course_description": "Understand the fundamentals of user experience (UX) and user interface (UI) design. Learn how to create user-friendly digital experiences through wireframing, prototyping, and usability testing.",
+      "isClassroom_orDemand": "Classroom",
+      "vote_average": 4.6,
+      "imageUrl": "img10.jpg",
+      "instructor": "Frank Wood"
+    },
+    {
+      "title": "Ethical Hacking",
+      "id": "11",
+      "course_duration": "10 weeks",
+      "course_startDate": "2025-05-01",
+      "course_price": "$499",
+      "course_description": "This course covers ethical hacking techniques and penetration testing to assess and strengthen cybersecurity defenses. Topics include vulnerability assessments, network security, and ethical hacking tools.",
+      "isClassroom_orDemand": "On Demand",
+      "vote_average": 4.9,
+      "imageUrl": "img11.jpg",
+      "instructor": "Frank Wood"
+    },
+    {
+      "title": "Project Management",
+      "id": "12",
+      "course_duration": "8 weeks",
+      "course_startDate": "2025-02-20",
+      "course_price": "$550",
+      "course_description": "A preparation course for the PMP certification, covering project planning, execution, risk management, and Agile methodologies. Designed for professionals looking to advance their project management careers.",
+      "isClassroom_orDemand": "Classroom",
+      "vote_average": 4.7,
+      "imageUrl": "img12.jpg",
+      "instructor": "James Barclay"
+    },
+    {
+      "title": "Mobile Development",
+      "id": "13",
+      "course_duration": "10 weeks",
+      "course_startDate": "2025-04-15",
+      "course_price": "$599",
+      "course_description": "A practical course on building cross-platform mobile applications using React Native. Students will learn how to develop and deploy mobile apps for both iOS and Android.",
+      "isClassroom_orDemand": "On Demand",
+      "vote_average": 4.8,
+      "imageUrl": "img13.jpg",
+      "instructor": "Sam Sung"
+    },
+    {
+      "title": "Business Analytics",
+      "id": "14",
+      "course_duration": "6 weeks",
+      "course_startDate": "2025-03-22",
+      "course_price": "$299",
+      "course_description": "Learn how to analyze business data using Microsoft Excel. This course covers advanced functions, data visualization, pivot tables, and financial modeling.",
+      "isClassroom_orDemand": "Classroom",
+      "vote_average": 4.6,
+      "imageUrl": "img14.jpg",
+      "instructor": "Danny White"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "firstName": "Jerry",
+      "lastName": " Kwarteng",
+      "address": "oriongatan 131, Ghana",
+      "email": "jerrykwarteng@gmail.com",
+      "phoneNumber": "12345678",
+      "adressLine": {
+        "addressLine": "Gatan 1",
+        "postalCode": "111 22",
+        "city": "Stockholm"
+      }
+    },
+    {
+      "id": "2",
+      "firstName": "Mike",
+      "lastName": " Kwabena",
+      "address": "oriongatan 131, Ghana",
+      "email": "mike@gmail.com",
+      "phoneNumber": "073485023",
+      "adressLine": {
+        "addressLine": "Gatan 1",
+        "postalCode": "199 52",
+        "city": "Stockholm"
+      }
+    }
+  ],
+  "bookings": [
+    {
+      "id": "4df6",
+      "student": {
+        "email": "jerrykwarteng@gmail.com",
+        "firstName": "Jerry",
+        "lastName": "Kwarteng",
+        "phone": "12345678"
+      },
+      "courseId": "3"
+    },
+    {
+      "id": "c60f",
+      "student": {
+        "email": "mike@gmail.com",
+        "firstName": "Mike",
+        "lastName": "Kwabena",
+        "phone": "073485023"
+      },
+      "courseId": "3"
+    },
+
+    {
+      "id": "659e",
+      "studentEmail": "mike@gmail.com",
+      "courseId": "2"
+    },
+
+    {
+      "id": "6daa",
+      "studentEmail": "mike@gmail.com",
+      "courseId": "1"
+    },
+    {
+      "id": "8e04",
+      "studentEmail": "mike@gmail.com",
+      "courseId": "2"
+    }
+  ],
+  "courseStudents": {
+    "courseTitle": "Blockchain fundamentals",
+    "students": [
+      {
+        "email": "jerrykwarteng@gmail.com"
+      },
+      {
+        "email": "johndoe@gmail.com"
+      }
+    ]
+  }
+}

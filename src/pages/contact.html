@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/site.css">
+    <title>Westcoast Education | Contact</title>
+   
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="container">
+            <ul class="menu">
+              <li class="logo">
+                <a class="page-title" href="/index.html"> WestCoast Education</a>
+              </li>
+              <li class="toggle">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"
+                  ><span class="nav-icon"></span>
+                </label>
+              </li>
+              <li class="menu-item">
+                <a href="/index.html">Start</a>
+              </li>
+              <li class="menu-item"><a href="/src/pages/about-us.html">About Us</a></li>
+              <li class="menu-item"><a href="/src/pages/admin.html">Admin</a></li> 
+              <li class="menu-item"><a href="/src/pages/contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <h2>Contact Form</h3>
+
+        <div class="contact-container">
+            <div class="form-wrapper">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Last name..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="sweden">Sweden</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div class="map-wrapper">
+                <!--  map iframe or image  -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.961686666765!2d11.97511227787278!3d57.7079377756555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4645337747647983%3A0x7699779799977977!2sG%C3%B6teborg%2C+Sweden!5e0!3m2!1sen!2sse" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </main>
+
+<footer>
+    <p>WestCoast Education &copy; 2025</p>
+</footer>
+<script>
+const form = document.querySelector('form');
+form.addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    alert('Form submitted successfully!');
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/assets/css/site.css" />
+    <script
+      src="https://kit.fontawesome.com/55174c58a9.js"
+      crossorigin="anonymous"></script>
+    <script type="module" src="./src/app.js" defer></script>
+
+    <title>WestCoast Education</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <ul class="menu">
+            <li class="logo">
+              <a class="page-title" href="/index.html"> WestCoast Education</a>
+            </li>
+            <li class="toggle">
+              <input class="menu-btn" type="checkbox" id="menu-btn" />
+              <label class="menu-icon" for="menu-btn"
+                ><span class="nav-icon"></span>
+              </label>
+            </li>
+            <li class="menu-item">
+              <a href="/index.html">Start</a>
+            </li>
+            <li class="menu-item">
+              <a href="/src/pages/about-us.html">About Us</a>
+            </li>
+            <li class="menu-item"><a href="/src/pages/admin.html">Admin</a></li>
+            <li class="menu-item">
+              <a href="/src/pages/contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- <section id="course-form">
+        <h1>Add New Course</h1>
+        <form id="new-course">
+          <div class="form-control">
+            <label for="title">Course</label>
+            <input type="text" name="title" id="title" />
+          </div>
+          <div class="form-control">
+            <label for="course_startDate">Start Date</label>
+            <input type="text" name="course_startDate" id="course_startDate" />
+          </div>
+          <div class="form-control">
+            <label for="course_duration">Duration</label>
+            <input type="text" name="course_duration" id="course_duration" />
+          </div>
+          <div class="form-control">
+            <label for="course_price">Price</label>
+            <input type="text" name="course_price" id="course_price" />
+          </div>
+          <button id="save-course" class="btn" type="submit">Save</button>
+        </form>
+      </section>
+      <section class="container">
+        <button class="btn" id="delete">Delete</button>
+        <p></p>
+        <button class="btn" id="update">Update</button>
+        <p></p>
+      </section> -->
+      <section class="first-page">
+        <h1>Welcome <br />to <br />WestCoast <br />Education</h1>
+      </section>
+      <section>
+        <form id="searchForm" method="post">
+          <div class="search">
+            <input
+              type="text"
+              name="searchInput"
+              id="searchInput"
+              placeholder="Search Courses..." />
+            <i class="fa-regular fa-magnifying-glass"></i>
+          </div>
+        </form>
+        <h2 class="h2">Popular Courses</h2>
+      </section>
+
+      <section id="courses"></section>
+    </main>
+    <footer>
+      <p>WestCoast Education &copy; 2025</p>
+    </footer>
+  </body>
+</html>

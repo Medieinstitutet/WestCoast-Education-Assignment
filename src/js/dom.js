@@ -1,5 +1,5 @@
 export const createCourseDisplay = (courses) => {
-  let html = ''
+  let html = '';
 
   courses.forEach((course) => {
     html += `
@@ -9,8 +9,8 @@ export const createCourseDisplay = (courses) => {
         </a>
         <p>${course.title} : ${course.course_price}</p>
       </div>
-    `
-  })
+    `;
+  });
 
-  return html
-}
+  return html;
+};
